@@ -1,0 +1,31 @@
+.new-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 128.40px;
+  border: 2px dashed rgb(218, 218, 218);
+  border-radius: 5px;
+  box-sizing: border-box;
+  .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(231, 231, 231);
+    cursor: pointer;
+    .plus-icon{
+      width: 20px;
+      height: 20px;
+      color: rgb(180, 180, 180);
+    }
+  }
+  p{
+    margin: 10px 0 0;
+    font-weight: 600;
+    color: rgb(177, 177, 177);
+  }
+}
